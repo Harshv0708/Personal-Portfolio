@@ -1,0 +1,41 @@
+/* HERO */
+.hero {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background: var(--accent);
+  border-radius: 6px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #ffd166;
+}
+
+/* SKILLS CARD GRID */
+#skills {
+  margin-top: 40px;
+}
+
+.dashboard-container {
+  margin-top: 30px;
+}
