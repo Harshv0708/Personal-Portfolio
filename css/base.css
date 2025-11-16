@@ -175,38 +175,6 @@ h2 {
   transform: translateY(-3px);
   border-color: var(--accent);
 }
-.social-links {
-  margin: 2rem auto;
-  display: flex;
-  gap: 14px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.social-links a {
-  padding: 8px 14px;
-  background: var(--card-bg);
-  color: var(--text);
-  border-radius: 6px;
-  font-weight: 600;
-  text-decoration: none;
-  border: 1px solid rgba(0,0,0,0.08);
-  transition: 0.2s;
-}
-
-.social-links a:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
 #home.hero {
   padding: 70px 10% 40px;
-}
-
-#social {
-  padding: 40px 10% 10px;
-  text-align: center;
-}
-
-#social h2 {
-  margin-bottom: 1rem;
 }

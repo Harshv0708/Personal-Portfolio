@@ -1,62 +1,104 @@
-<section id="about" class="about">
-  <div class="about-top">
-    <img src="assets/images/profile.jpg" alt="Harsh Verma" class="about-avatar">
-    <div class="about-intro">
-      <h1>Hi — I'm Harsh Verma</h1>
-      <p>
-        I am a web developer focused on building responsive, accessible, and maintainable interfaces.
-        I enjoy front-end engineering, clean UI, and learning new tech stacks.
-      </p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | DevSpace</title>
 
-      <div class="social-inline">
-        <a href="https://www.linkedin.com/in/harshv07" target="_blank">LinkedIn</a>
-        <a href="https://github.com/Harshv0708" target="_blank">GitHub</a>
+    <!-- Correct Stylesheets -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/about.css" />
+  </head>
+  <body>
+    <header>
+      <h2>DevSpace</h2>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-toggle" class="theme-toggle">
+        <img id="theme-icon" src="assets/icons/moon-black.png" alt="Theme Toggle" />
+      </button>
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-top">
+        <div class="about-intro">
+          <h1>Hi — I'm Harsh Verma</h1>
+          <p>
+            I am a web developer focused on building responsive, accessible, and
+            maintainable interfaces. I enjoy front-end engineering, clean UI,
+            and learning new tech stacks.
+          </p>
+
+          <div class="social-inline">
+            <a href="https://www.linkedin.com/in/harshv07" target="_blank">
+              <img src="assets/icons/linkedin-logo.png" alt="" /> LinkedIn
+            </a>
+
+            <a href="https://github.com/Harshv0708" target="_blank">
+              <img src="assets/icons/github-logo.png" alt="" /> GitHub
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <!-- EXPERIENCE -->
-  <h2 class="about-section-title">Work Experience</h2>
-  <div class="about-cards">
-    <article class="about-card">
-      <h3>Web Developer Intern — Cognifyz Technologies</h3>
-      <div class="about-duration">Sept 2025 – Oct 2025 · Remote</div>
-      <ul>
-        <li>Built a full website with HTML, CSS & JS; reviewed by 10+ peers for modular design.</li>
-        <li>Reduced code redundancy by ~40% improving maintainability and performance.</li>
+      <!-- EXPERIENCE -->
+      <h2 class="about-section-title">Work Experience</h2>
+      <div class="about-cards">
+        <article class="about-card">
+          <h3>Web Developer Intern — Cognifyz Technologies</h3>
+          <div class="about-duration">Sept 2025 – Oct 2025 · Remote</div>
+          <ul>
+            <li>Built a full website with HTML, CSS & JS; reviewed by 10+ peers for modular design.</li>
+            <li>Reduced code redundancy by ~40% improving maintainability and performance.</li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- EDUCATION -->
+      <h2 class="about-section-title">Education</h2>
+      <div class="about-cards">
+        <article class="about-card">
+          <h3>B.Tech — Computer Science</h3>
+          <div class="about-duration">Sagar Institute of Research & Technology (RGPV) · 2022–2026</div>
+          <p>CGPA: 6.73 / 10</p>
+        </article>
+
+        <article class="about-card">
+          <h3>Senior Secondary (CBSE)</h3>
+          <div class="about-duration">Buddha Public School · 2021</div>
+          <p>Percentage: 75.2%</p>
+        </article>
+
+        <article class="about-card">
+          <h3>Secondary (CBSE)</h3>
+          <div class="about-duration">Buddha Public School · 2019</div>
+          <p>Percentage: 91.4%</p>
+        </article>
+      </div>
+
+      <!-- ACHIEVEMENTS -->
+      <h2 class="about-section-title">Achievements & Certifications</h2>
+      <ul class="ach-list">
+        <li>Edu Blockchain Buildstation Hackathon — Frontend Participant</li>
+        <li>Selected for Microsoft Azure Cohorts (AI, App Dev)</li>
+        <li>50-Days LeetCode Challenge Badge</li>
+        <li>HackerRank Problem Solving & SQL Certifications</li>
+        <li>UI/UX Using Figma Certification</li>
       </ul>
-    </article>
-  </div>
+    </section>
 
-  <!-- EDUCATION -->
-  <h2 class="about-section-title">Education</h2>
-  <div class="about-cards">
-    <article class="about-card">
-      <h3>B.Tech — Computer Science</h3>
-      <div class="about-duration">Sagar Institute of Research & Technology (RGPV) · 2022–2026</div>
-      <p>CGPA: 6.73 / 10</p>
-    </article>
+    <footer>
+      <p>© 2025 DevSpace | Designed by Harsh Verma</p>
+    </footer>
 
-    <article class="about-card">
-      <h3>Senior Secondary (CBSE)</h3>
-      <div class="about-duration">Buddha Public School · 2021</div>
-      <p>Percentage: 75.2%</p>
-    </article>
-
-    <article class="about-card">
-      <h3>Secondary (CBSE)</h3>
-      <div class="about-duration">Buddha Public School · 2019</div>
-      <p>Percentage: 91.4%</p>
-    </article>
-  </div>
-
-  <!-- ACHIEVEMENTS -->
-  <h2 class="about-section-title">Achievements & Certifications</h2>
-  <ul class="ach-list">
-    <li>Edu Blockchain Buildstation Hackathon — Frontend Participant</li>
-    <li>Selected for Microsoft Azure Cohorts (AI, App Dev)</li>
-    <li>50-Days LeetCode Challenge Badge</li>
-    <li>HackerRank Problem Solving & SQL Certifications</li>
-    <li>UI/UX Using Figma Certification</li>
-  </ul>
-</section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
